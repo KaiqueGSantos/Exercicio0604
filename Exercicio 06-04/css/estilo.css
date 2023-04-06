@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, blue 0%, black 100%);
+}
+
+.conteiner{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.cabecario{
+    text-align: center;
+    color: white;
+}
+
+.cabecario p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.conanuncio{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.anuncio1{
+    background: red;
+    width: 500px;
+    height: 350px;
+    color: white;
+}
+
+.anuncio2{
+    background: blue;
+    width: 500px;
+    height: 350px;
+    color: white;
+}
+
+.titulo{
+    background: black;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+}
+
+.texto{
+    text-align: justify;
+    padding: 10px;
+    font-size: 19px;
+}
